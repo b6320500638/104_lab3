@@ -16,7 +16,6 @@ int main()
                 }
                 k=k/i;
                 x=i;
-                i=2;
                 j++;
             }
             else
