@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num[4],sum[5],max=0,pos;
+    int num[4],sum[5],pos;
     for(int j=0;j<5;j++)
     {
         for(int i=0;i<4;i++)
@@ -11,6 +11,7 @@ int main()
         }
         sum[j]=num[0]+num[1]+num[2]+num[3];
     }
+    int max=sum[0];
     for(int k=0;k<5;k++)
     {
         if(max<sum[k])
